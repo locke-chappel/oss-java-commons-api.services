@@ -1,6 +1,6 @@
-package com.github.lc.oss.commons.api.services;
+package io.github.lc.oss.commons.api.services;
 
-import com.github.lc.oss.commons.serialization.Jsonable;
+import io.github.lc.oss.commons.serialization.Jsonable;
 
 public interface JsonService {
     <T extends Jsonable> T from(String json, Class<T> clazz);
